@@ -3,7 +3,10 @@ last_name = input("Enter last name: ")
 section = input("Enter section: ")
 subject = input("Enter favorite subject: ")
 
-print("\nstudentinformation")
-print("Name:", first_name, last_name)
-print("section:",section)
+full_name = first_name + " " + last_name
+
+print("\nstudent information")
+print("Name:", full_name)
+print("section:", section)
 print("favorite subject:",subject)
+print("Character count: ", len(full_name))
